@@ -1,0 +1,26 @@
+{
+  "source_rows": 69889,
+  "analysis_rows": 69889,
+  "control_n": 34678,
+  "treatment_n": 35211,
+  "control_conversions": 3650,
+  "treatment_conversions": 5469,
+  "control_rate": 0.1052540515600669,
+  "treatment_rate": 0.15532078043793132,
+  "risk_difference": 0.050066728877864425,
+  "relative_lift": 0.4756750750757761,
+  "ci_low": 0.045092044577224294,
+  "ci_high": 0.05504182451731085,
+  "z": 19.647242501120566,
+  "p_value": 6.104014605174894e-86,
+  "alpha": 0.05,
+  "country_standardized_risk_difference": 0.05005241431423162,
+  "sha256": "8c1ce3d02b7b195c1f40a1c278ba8c2f807295874c302efb61812ba226ce43ac",
+  "allocation_diagnostic": {
+    "assumed_treatment_probability": 0.5,
+    "assumption_established": false,
+    "method": "Exact two-sided binomial test",
+    "p_value": 0.044180477962191225,
+    "interpretation": "If intended allocation was exactly 50:50, the counts warrant investigation; the actual planned ratio is unknown. No rows excluded."
+  }
+}

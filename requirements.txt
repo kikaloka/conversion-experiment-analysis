@@ -1,0 +1,9 @@
+pandas==2.3.3
+numpy==2.4.0
+matplotlib==3.10.8
+scipy==1.16.3
+statsmodels==0.14.5
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.2
+ipykernel==7.4.0

@@ -1,0 +1,5 @@
+step,count,decision
+Source rows,69889,"Immutable source, verified SHA-256"
+Missing or invalid rows,0,None removed; unexpected values halt analysis
+Repeated three-field tuples,69877,Retained: repeated categories are not evidence of duplicate visitors
+Analysis rows,69889,"No exclusions, imputation or deduplication"

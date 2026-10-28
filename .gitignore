@@ -1,0 +1,9 @@
+data/original/*
+!data/original/.gitkeep
+.venv/
+.runtime/
+.build/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+publication-candidate.zip

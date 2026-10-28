@@ -1,0 +1,284 @@
+{
+  "checks": 68,
+  "passed": 68,
+  "failed": [],
+  "details": [
+    {
+      "check": "Source checksum",
+      "passed": true
+    },
+    {
+      "check": "Schema",
+      "passed": true
+    },
+    {
+      "check": "No missing fields",
+      "passed": true
+    },
+    {
+      "check": "Country values",
+      "passed": true
+    },
+    {
+      "check": "Group values",
+      "passed": true
+    },
+    {
+      "check": "Binary outcomes",
+      "passed": true
+    },
+    {
+      "check": "All rows retained",
+      "passed": true
+    },
+    {
+      "check": "control n",
+      "passed": true
+    },
+    {
+      "check": "control conversions",
+      "passed": true
+    },
+    {
+      "check": "control rate",
+      "passed": true
+    },
+    {
+      "check": "control aggregate rate",
+      "passed": true
+    },
+    {
+      "check": "control country n",
+      "passed": true
+    },
+    {
+      "check": "control country conversions",
+      "passed": true
+    },
+    {
+      "check": "control country shares",
+      "passed": true
+    },
+    {
+      "check": "treatment n",
+      "passed": true
+    },
+    {
+      "check": "treatment conversions",
+      "passed": true
+    },
+    {
+      "check": "treatment rate",
+      "passed": true
+    },
+    {
+      "check": "treatment aggregate rate",
+      "passed": true
+    },
+    {
+      "check": "treatment country n",
+      "passed": true
+    },
+    {
+      "check": "treatment country conversions",
+      "passed": true
+    },
+    {
+      "check": "treatment country shares",
+      "passed": true
+    },
+    {
+      "check": "CA control n",
+      "passed": true
+    },
+    {
+      "check": "CA control rate",
+      "passed": true
+    },
+    {
+      "check": "CA treatment n",
+      "passed": true
+    },
+    {
+      "check": "CA treatment rate",
+      "passed": true
+    },
+    {
+      "check": "UK control n",
+      "passed": true
+    },
+    {
+      "check": "UK control rate",
+      "passed": true
+    },
+    {
+      "check": "UK treatment n",
+      "passed": true
+    },
+    {
+      "check": "UK treatment rate",
+      "passed": true
+    },
+    {
+      "check": "US control n",
+      "passed": true
+    },
+    {
+      "check": "US control rate",
+      "passed": true
+    },
+    {
+      "check": "US treatment n",
+      "passed": true
+    },
+    {
+      "check": "US treatment rate",
+      "passed": true
+    },
+    {
+      "check": "Conditional exact allocation diagnostic",
+      "passed": true
+    },
+    {
+      "check": "50:50 explicitly unestablished",
+      "passed": true
+    },
+    {
+      "check": "Conditional diagnostic retains all rows",
+      "passed": true
+    },
+    {
+      "check": "Manual difference",
+      "passed": true
+    },
+    {
+      "check": "Manual relative lift",
+      "passed": true
+    },
+    {
+      "check": "Manual z",
+      "passed": true
+    },
+    {
+      "check": "Manual log p",
+      "passed": true
+    },
+    {
+      "check": "Independent Newcombe lower",
+      "passed": true
+    },
+    {
+      "check": "Independent Newcombe upper",
+      "passed": true
+    },
+    {
+      "check": "2x2 odds ratio vs logistic",
+      "passed": true
+    },
+    {
+      "check": "Independent OR lower",
+      "passed": true
+    },
+    {
+      "check": "Independent OR upper",
+      "passed": true
+    },
+    {
+      "check": "Adjusted OR similar",
+      "passed": true
+    },
+    {
+      "check": "Standardized effect similar",
+      "passed": true
+    },
+    {
+      "check": "Four executed cells",
+      "passed": true
+    },
+    {
+      "check": "No notebook error outputs",
+      "passed": true
+    },
+    {
+      "check": "Link README.md -> notebooks/conversion_experiment.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Link README.md -> results/notebook-report.html",
+      "passed": true
+    },
+    {
+      "check": "Link README.md -> results/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "Link README.md -> presentation/ecommerce_ab_test_portfolio.pptx",
+      "passed": true
+    },
+    {
+      "check": "Link README.md -> presentation/ecommerce_ab_test_portfolio.pdf",
+      "passed": true
+    },
+    {
+      "check": "Link README.md -> docs/sources.md",
+      "passed": true
+    },
+    {
+      "check": "Chart conversion",
+      "passed": true
+    },
+    {
+      "check": "Chart country",
+      "passed": true
+    },
+    {
+      "check": "Chart effect",
+      "passed": true
+    },
+    {
+      "check": "Notebook HTML exists",
+      "passed": true
+    },
+    {
+      "check": "Raw excluded by gitignore",
+      "passed": true
+    },
+    {
+      "check": "Verified presentation size pptx",
+      "passed": true
+    },
+    {
+      "check": "Verified presentation Git blob pptx",
+      "passed": true
+    },
+    {
+      "check": "Verified presentation size pdf",
+      "passed": true
+    },
+    {
+      "check": "Verified presentation Git blob pdf",
+      "passed": true
+    },
+    {
+      "check": "Seven presentation slides",
+      "passed": true
+    },
+    {
+      "check": "Three native editable charts",
+      "passed": true
+    },
+    {
+      "check": "Deck conversion effect agrees",
+      "passed": true
+    },
+    {
+      "check": "Deck conditional allocation caveat",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Slide visual inspection performed in parent creation workflow; local checks preserve exact verified bytes",
+    "HTML browser layout not verified",
+    "Statistical assumptions cannot be established from three-field dataset"
+  ]
+}
